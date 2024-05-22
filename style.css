@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Jersey+15&display=swap');
+
+body{
+  background-color: #acacac;
+}
+.quadrado{
+  width: 200px; /*largura*/
+  height: 200px;/*altura*/
+  font-size: 150px; /*tamanho da fonte*/
+  background-color: #213e63; /*fundo*/
+  color: #d6d6d6;/*cor letra*/
+  border-radius: 15px; /*borda arredonda*/
+  font-family: "Jersey 15", sans-serif;
+}
+
+.painel{
+  width: 1000px; /*largura da div*/
+  border: 1px solid #000; /*borda*/
+  margin: auto; /*centralizar*/
+  text-align: center;
+  padding: 40px;
+  border-radius: 15px;
+  background-color: #13253b65;
+}
+
+
+
+.jogo{
+  margin: auto;
+}
+
+.botao{
+  background-color: #b7c1cd;
+  color: #000;
+  border: 0.5px solid #fff;
+  padding: 10px;
+  margin-top: 20px;
+  margin-right: 20px;
+  border-radius: 10px;
+}
+
+.botao:hover{
+  background-color: rgb(127, 157, 197)
+}
+
+.botao:active{
+  background-color: #a6b4c7;
+}
+
+#q1, #q2, #q3, #q4, #q5{
+  background-color: #4d6482;
+}
