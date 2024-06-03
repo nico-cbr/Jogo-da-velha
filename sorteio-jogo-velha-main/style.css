@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Silkscreen:wght@400;700&display=swap');
+
+.quadrado{
+    width: 200px;   /*largura*/
+    height: 200px;  /*altura*/
+    font-size: 150px; /*tamanho da fonte*/
+    background-color: #6495ed;   /*cor de fundo*/
+    color: white;   /*cor de fundo*/
+    border-radius: 15px;    /*arrendondar bordas*/
+    font-family: "Silkscreen", sans-serif;
+}
+
+.painel{
+    width: 1000px;  /*largura da div*/
+    border: 1px solid black;    /*borda*/
+    margin: auto;   /*centralizar*/
+    text-align: center;     /*centralizar conteudo*/
+    padding: 40px;  /*espaçamento interno*/
+    border-radius: 15px;
+    background-color: rgba(36, 33, 33, 0.473);
+    animation: animar alternate infinite;
+    animation-duration: 2.5s;
+}
+
+.jogo{
+    margin: auto;
+}
+
+.botao{
+    background-color: #FF5F00;   /*cor do botao*/
+    color: white;   /*cor da letra*/
+    border: none;   /*desativar*/
+    padding: 10px;  /*espaçamento interno*/
+    margin-top: 20px;       /*margin de cima*/
+    border-radius: 10px;    /*arredondar botão*/
+}
+
+/* quando passar o mouse no botão aplica efeito */
+.botao:hover{
+    background-color: #FFA62F;   /*cor de fundo*/
+    transition: .5s; /*tempo de transição*/
+    scale: 1.05;
+}
+
+body{
+    background-image: url(https://c.wallhere.com/photos/d5/aa/pixel_art_cityscape_water_trees_stars-1364299.jpg!d);
+    background-size: cover;
+}
+
+input{
+    border-radius: 12px;
+    border: 2px solid #FF5F00;
+    padding: 4px;
+}
+label {
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 5px;
+    margin-bottom: 15px;
+}
+
+span{
+    color: #fff;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+
+.direita{
+    margin: auto;
+}
+
+ul{
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    font-size: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+li{
+    width: 500px;   
+    height: 80px;
+    padding-top: 20px;
+    text-align: center;
+    background-color: #aaaaaa57;
+    margin: auto;
+    border-radius: ;
+}

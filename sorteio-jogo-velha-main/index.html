@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    <title>Sorteio</title>
+</head>
+<body>
+    <div class="painel">
+        <span id="jogador"></span>
+        <table class="jogo" border="2">
+            <tr><!--linha1--->
+                <td id="q7" class="quadrado" onclick="jogar(this)"></td>
+                <td id="q8" class="quadrado" onclick="jogar(this)"></td>
+                <td id="q9" class="quadrado" onclick="jogar(this)"></td>
+            </tr>
+            <tr><!--linha2--->
+                <td id="q4" class="quadrado" onclick="jogar(this)"></td>
+                <td id="q5" class="quadrado" onclick="jogar(this)"></td>
+                <td id="q6" class="quadrado" onclick="jogar(this)"></td>
+            </tr>
+            <tr><!--linha3--->
+                <td id="q1" class="quadrado" onclick="jogar(this)"></td>
+                <td id="q2" class="quadrado" onclick="jogar(this)"></td>
+                <td id="q3" class="quadrado" onclick="jogar(this)"></td>
+            </tr>
+        </table>
+
+        <button onclick="reiniciar()" class="botao"><i class="fa-solid fa-rotate-right"></i> Reiniciar</button>
+        <button onclick="window.close()" class="botao"><i class="fa-regular fa-circle-xmark"></i> Fechar</button>
+        <button onclick="gerarBatalha()" class="botao"><i class="fa-sharp fa-solid fa-clover"></i> Gerar Batalha </button>
+
+            <div class="direita">
+                <label for="">Nome: </label>
+                <input type="text" id="nome"    placeholder="  Coloque os nomes :D">
+                <button class="botao" onclick="adicionar()"><i class="fa-regular fa-paper-plane"></i>  Adicionar </button>
+                
+                <ul id="lista">
+                    
+                </ul>
+            </div>
+        </div>
+    <script src="./script.js"></script>
+</body>
+</html>
